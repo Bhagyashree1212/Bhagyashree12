@@ -1,0 +1,24 @@
+/* selector */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    color: azure;
+}
+
+/* #My{
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+    color: azure;
+   }*/
+.Ice-cream{
+    margin: 0;
+    padding: 0;
+    background-color: maroon;
+    color: azure;
+}
+
+
+
+

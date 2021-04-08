@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 10px;
+}
+body{
+    background: rgb(78,195,34);
+background: linear-gradient(0deg, rgba(78,195,34,1) 18%, rgba(123,190,126,1) 52%, rgba(253,187,45,1) 87%);
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 0px 500px;
+}
+    li{
+        color: black;
+         padding: 4px 10px;
+    }
+    input{
+        margin-top: 150px;
+        margin-left: 289px;
+        width: 323px;
+        height: 46px;
+        text-align: center;
+        border-radius: 25px;
+        border: 8px solid blue;
+    } 
+i{
+    margin: -40px;
+    border-left: 2px solid black;
+    padding: 5px;
+}
+li a{
+text-decoration: none;
+color: black;
+}

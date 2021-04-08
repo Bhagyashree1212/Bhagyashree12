@@ -1,0 +1,40 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* remove bullets of ul2*/
+nav > ul
+{
+    list-style: none;
+    display: flex; /* content in same line*/
+background: rgb(63,94,251); /* linear gradient */
+background: linear-gradient(90deg, rgba(63,94,251,1) 32%, rgba(73,140,206,1) 52%, rgba(84,190,157,1) 65%);
+position: fixed;
+margin: 15px 340px;
+}
+li a{
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav > ul li a:hover{ 
+display: inline-block;
+color: blanchedalmond;
+padding: 10px 20px;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+background-color: blueviolet;
+}
+nav ul ul {
+    list-style:none ;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+nav ul ul li a{
+width: 200px;
+display: block;
+border: 1px solid;
+} 
+ul li:hover > ul {
+    display: block;
+}

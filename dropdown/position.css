@@ -1,0 +1,13 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+.fas{
+position: relative;
+left: 140px;
+top:-20px;
+font-size: 14px
+}
+
+#search{
+padding: 15 25 px;
+margin: none;
+}

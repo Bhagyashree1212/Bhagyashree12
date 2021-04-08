@@ -1,0 +1,8 @@
+/* import wise : open google fonts, in search box type roboto or any style of your choice, select style, 
+        use on web: select on import, copy and paste the URL in this css file */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap'); 
+body{ 
+    /* open a body tag with open and close curly brace */
+    font-family: 'Roboto', sans-serif; /* in google fonts, same procedure but copy css URL link: CSS rules to specify family below import /*
+}
